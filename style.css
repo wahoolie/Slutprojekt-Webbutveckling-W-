@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Navbar Kod */
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -47,3 +49,39 @@ nav{
     background-size: 100% 3px;
 }
 
+/* Main content (Bilder, informatio/text) */
+main {
+    background-color: aqua;
+}
+/* Kod från w3schools */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*  Min Egna Kod */
+
+.main-title {
+    padding: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+}
+
+.main-information {
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 25px;
+}
+
+/* Bild */
