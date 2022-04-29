@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 
+/* Love Focus Hate */
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:focus {
+    color: white;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+a:active {
+    color: cornflowerblue;
+}
+
 /* Navbar Kod */
 
 nav{
@@ -11,7 +32,9 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: black;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #06101f, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #06101f, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -51,7 +74,10 @@ nav{
 
 /* Main content (Bilder, informatio/text) */
 main {
-    background-color: aqua;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #09182e, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #09182e, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 /* Kod från w3schools */
 .column {
@@ -84,4 +110,107 @@ main {
     font-size: 25px;
 }
 
-/* Bild */
+p, h1 {
+    color: white;
+}
+ 
+.container {
+    height: 60vh;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #09182e, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #09182e, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+i {
+    font-size: 200px;
+    color: white;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.CPU-Explained {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer */
+
+.Footer {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #06101f, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #06101f, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;   
+}
+
+
+/* Första Columnen*/
+
+.Footer_Header_1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    font-size: 20px;
+}
+
+.Footer_Header_1 h2 {
+    margin-bottom: 2rem;
+}
+
+.Footer_Header_1 a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Andra Columnen*/
+
+.Footer_Header_2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    font-size: 20px;
+}
+
+.Footer_Header_2 h2 {
+    margin-bottom: 2rem;
+}
+
+.Footer_Header_2 a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+
+/* Tredje Columnen*/
+
+.Footer_Header_3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    font-size: 20px;
+}
+
+.Footer_Header_3 h2 {
+    margin-bottom: 2rem;
+}
+
+.Footer_Header_3 a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
