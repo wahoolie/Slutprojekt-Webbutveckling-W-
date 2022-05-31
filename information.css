@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #06101f, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #06101f, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.logo{
+    color:rgba(255, 255, 255); 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.NavLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+}
+
+.NavLinks a{
+    color: rgba(255, 255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 2px;
+
+    /*Underline Hover code*/
+    background-image: linear-gradient(90deg,white,white);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 250ms ease;
+}
+
+.NavLinks a:hover {
+    background-size: 100% 3px;
+}
+
+/* Main content (Bilder, informatio/text) */
+main {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #09182e, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #09182e, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100ex;
+    padding: 10vmin;
+}
+/* Kod från w3schools */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*  Min Egna Kod */
+
+.main-title {
+    padding: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+}
+
+.main-information {
+    font-family: 'Noto Sans', sans-serif;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 25px;
+}
+
+p, h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+article {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #09182e, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #09182e, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+table,th,td,tr {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    list-style-type:none ;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Noto Sans', sans-serif;
+ }
+ 
+ th, td {
+    padding: 5px;
+  }
+ 
+ .Name {
+    text-align: left;
+ }
+ 
+ .Core-Threads {
+    text-align: center;
+ }
+ 
+ .Frequency {
+    text-align: center;
+ }
+ 
+ .Socket {
+    text-align: right;
+ }
+ 
+ tr:first-child {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #06101f, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #06101f, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgba(255, 255, 255, 255);
+ }
+ 
+ tr:nth-child(2) {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #09182e, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #09182e, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgba(255, 255, 255, 255);
+ }
+ 
+ tr:nth-child(3) {
+    background-color: #4287f5;
+    color: rgba(255, 255, 255, 255);
+ }
+ 
+ tr:nth-child(4) {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #09182e, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #09182e, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(255, 255, 255);
+ }
+ 
+ tr:nth-child(5) {
+    background-color: #4287f5;
+    color: rgb(255, 255, 255);
+ }
+ 
+ td:nth-child(1) {
+    width: 150px;
+ }   
+ 
+   td:nth-child(2) {
+    width: 150px;
+ }   
+ 
+ td:nth-child(3) {
+    width: 150px;
+ } 
+ 
+ td:nth-child(4) {
+    width: 150px;
+ } 
+
+.Table-Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgba(255, 255, 255); 
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 200%;
+}
+
+.Footer {
+   background: #141E30;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #06101f, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #06101f, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   padding-bottom: 4rem;
+   padding-top: 4rem;
+   height: 50vh;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   color: white;
+   font-family: 'Noto Sans', sans-serif;   
+}
+
+
+/* Första Columnen*/
+
+.Footer_Header_1 {
+   display: flex;
+   flex-direction: column;
+   margin-right: 4rem;
+   font-size: 20px;
+}
+
+.Footer_Header_1 h2 {
+   margin-bottom: 2rem;
+}
+
+.Footer_Header_1 a {
+   color: white;
+   text-decoration: none;
+   margin-bottom: 0.5rem;
+}
+
+
+/* Andra Columnen*/
+
+.Footer_Header_2 {
+   display: flex;
+   flex-direction: column;
+   margin-right: 4rem;
+   font-size: 20px;
+}
+
+.Footer_Header_2 h2 {
+   margin-bottom: 2rem;
+}
+
+.Footer_Header_2 a {
+   color: white;
+   text-decoration: none;
+   margin-bottom: 0.5rem;
+}
+
+
+/* Tredje Columnen*/
+
+.Footer_Header_3 {
+   display: flex;
+   flex-direction: column;
+   margin-right: 4rem;
+   font-size: 20px;
+}
+
+.Footer_Header_3 h2 {
+   margin-bottom: 2rem;
+}
+
+.Footer_Header_3 a {
+   color: white;
+   text-decoration: none;
+   margin-bottom: 0.5rem;
+}
+
+form {
+   background: #141E30;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #06101f, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #06101f, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+}
+
+label {
+   color: white;
+}

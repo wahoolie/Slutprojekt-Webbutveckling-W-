@@ -120,7 +120,6 @@ p, h1 {
     background: #141E30;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #09182e, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #09182e, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 i {
@@ -214,4 +213,15 @@ i {
     color: white;
     text-decoration: none;
     margin-bottom: 0.5rem;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-bottom: 2rem;
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #09182e, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #09182e, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
